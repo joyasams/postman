@@ -49,7 +49,25 @@
           "_postman_id": "47f7949e-72d6-d7d0-c76b-a18e33205321",
           "name": "Brand Media",
           "request": {
-            "url": "{{resource_service_url}}/catalog/brands/microsoft/media",
+            "url": {
+              "raw": "{{resource_service_url}}/catalog/brands/:brandid/media",
+              "auth": {},
+              "host": [
+                "{{resource_service_url}}"
+              ],
+              "path": [
+                "catalog",
+                "brands",
+                ":brandid",
+                "media"
+              ],
+              "variable": [
+                {
+                  "value": "microsoft",
+                  "id": "brandid"
+                }
+              ]
+            },
             "method": "GET",
             "header": [
               {
