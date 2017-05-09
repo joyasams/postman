@@ -44,7 +44,34 @@
       "_postman_id": "c0eb6a23-41b2-1cb5-a9ea-f5ff2e0cb4d4",
       "name": "Brands",
       "description": "",
-      "item": []
+      "item": [
+        {
+          "_postman_id": "47f7949e-72d6-d7d0-c76b-a18e33205321",
+          "name": "Brand Media",
+          "request": {
+            "url": "{{resource_service_url}}/catalog/brands/microsoft/media",
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/vnd.bestbuy.media+json",
+                "description": ""
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "description": ""
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"requests\": [{\r\n        \"id\": \"catalog/products/10071133\"\r\n    },\r\n    {\r\n        \"id\": \"catalog/products/10071133/details\",\r\n        \"headers\": {\r\n            \"Accept\": \"application/vnd.bestbuy.productdetails+json\"\r\n        }\r\n    }]\r\n}"
+            },
+            "description": "Returns brand media information"
+          },
+          "response": []
+        }
+      ]
     }
   ]
 }
