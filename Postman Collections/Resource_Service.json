@@ -13,32 +13,6 @@
       "description": "",
       "item": [
         {
-          "_postman_id": "c262bb11-72ab-6d09-ae37-d6344b242107",
-          "name": "Aggregator",
-          "request": {
-            "url": "{{resource_service_url}}/catalog/brands/microsoft/media",
-            "method": "GET",
-            "header": [
-              {
-                "key": "Accept",
-                "value": "application/vnd.bestbuy.media+json",
-                "description": ""
-              },
-              {
-                "key": "Content-Type",
-                "value": "application/json",
-                "description": ""
-              }
-            ],
-            "body": {
-              "mode": "raw",
-              "raw": "{\r\n    \"requests\": [{\r\n        \"id\": \"catalog/products/10071133\"\r\n    },\r\n    {\r\n        \"id\": \"catalog/products/10071133/details\",\r\n        \"headers\": {\r\n            \"Accept\": \"application/vnd.bestbuy.productdetails+json\"\r\n        }\r\n    }]\r\n}"
-            },
-            "description": ""
-          },
-          "response": []
-        },
-        {
           "_postman_id": "b50c769d-1c70-a633-710b-46194cb223cb",
           "name": "Aggregator",
           "request": {
@@ -74,6 +48,32 @@
         {
           "_postman_id": "47f7949e-72d6-d7d0-c76b-a18e33205321",
           "name": "Brand Media",
+          "request": {
+            "url": "{{resource_service_url}}/catalog/brands/microsoft/media",
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/vnd.bestbuy.media+json",
+                "description": ""
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "description": ""
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"requests\": [{\r\n        \"id\": \"catalog/products/10071133\"\r\n    },\r\n    {\r\n        \"id\": \"catalog/products/10071133/details\",\r\n        \"headers\": {\r\n            \"Accept\": \"application/vnd.bestbuy.productdetails+json\"\r\n        }\r\n    }]\r\n}"
+            },
+            "description": "Returns brand media information"
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "756fcab1-a9c4-1eee-dd61-16f525e2da09",
+          "name": "Brand Media copy",
           "request": {
             "url": "{{resource_service_url}}/catalog/brands/microsoft/media",
             "method": "GET",
