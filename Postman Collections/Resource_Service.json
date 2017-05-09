@@ -37,6 +37,32 @@
             "description": ""
           },
           "response": []
+        },
+        {
+          "_postman_id": "b50c769d-1c70-a633-710b-46194cb223cb",
+          "name": "Aggregator",
+          "request": {
+            "url": "{{resource_service_url}}/aggregator",
+            "method": "POST",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/vnd.bestbuy.aggregator+json",
+                "description": ""
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "description": ""
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"requests\": [{\r\n        \"id\": \"catalog/products/10071133\"\r\n    },\r\n    {\r\n        \"id\": \"catalog/products/10071133/details\",\r\n        \"headers\": {\r\n            \"Accept\": \"application/vnd.bestbuy.productdetails+json\"\r\n        }\r\n    }]\r\n}"
+            },
+            "description": "Returns multiple resources in a single request"
+          },
+          "response": []
         }
       ]
     },
