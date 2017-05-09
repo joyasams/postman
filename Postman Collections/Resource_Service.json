@@ -240,7 +240,7 @@
         },
         {
           "_postman_id": "b0eb98fe-6e2c-01e8-d713-fd109cf231b0",
-          "name": "Category Details copy",
+          "name": "Category Media",
           "request": {
             "url": {
               "raw": "{{resource_service_url}}/catalog/hierarchies/:hierarchyid/categories/:categoryid/details",
