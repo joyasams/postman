@@ -184,7 +184,7 @@
         },
         {
           "_postman_id": "e8e10f4e-d190-9283-a1cc-49961e207614",
-          "name": "Category copy",
+          "name": "Category Details",
           "request": {
             "url": {
               "raw": "{{resource_service_url}}/catalog/brands/:brandid",
