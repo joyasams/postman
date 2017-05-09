@@ -141,7 +141,7 @@
       "item": [
         {
           "_postman_id": "87890a36-c789-91c0-fd76-3ce9229631e5",
-          "name": "Brand copy",
+          "name": "Category",
           "request": {
             "url": {
               "raw": "{{resource_service_url}}/catalog/brands/:brandid",
