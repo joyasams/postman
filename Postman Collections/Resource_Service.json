@@ -243,7 +243,7 @@
           "name": "Category Media",
           "request": {
             "url": {
-              "raw": "{{resource_service_url}}/catalog/hierarchies/:hierarchyid/categories/:categoryid/details",
+              "raw": "{{resource_service_url}}/catalog/hierarchies/:hierarchyid/categories/:categoryid/media",
               "auth": {},
               "host": [
                 "{{resource_service_url}}"
@@ -254,7 +254,7 @@
                 ":hierarchyid",
                 "categories",
                 ":categoryid",
-                "details"
+                "media"
               ],
               "variable": [
                 {
@@ -271,7 +271,7 @@
             "header": [
               {
                 "key": "Accept",
-                "value": "application/vnd.bestbuy.categorydetails+json",
+                "value": "application/vnd.bestbuy.media+json",
                 "description": ""
               },
               {
