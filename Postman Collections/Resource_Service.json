@@ -193,7 +193,7 @@
           "name": "Category Details",
           "request": {
             "url": {
-              "raw": "{{resource_service_url}}/catalog/hierarchies/:hierarchyid/categories/:categoryid",
+              "raw": "{{resource_service_url}}/catalog/hierarchies/:hierarchyid/categories/:categoryid/details",
               "auth": {},
               "host": [
                 "{{resource_service_url}}"
@@ -203,7 +203,8 @@
                 "hierarchies",
                 ":hierarchyid",
                 "categories",
-                ":categoryid"
+                ":categoryid",
+                "details"
               ],
               "variable": [
                 {
@@ -220,7 +221,7 @@
             "header": [
               {
                 "key": "Accept",
-                "value": "application/vnd.bestbuy.category+json",
+                "value": "application/vnd.bestbuy.categorydetails+json",
                 "description": ""
               },
               {
