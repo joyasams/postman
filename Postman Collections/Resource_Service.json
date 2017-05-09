@@ -39,6 +39,12 @@
           "response": []
         }
       ]
+    },
+    {
+      "_postman_id": "c0eb6a23-41b2-1cb5-a9ea-f5ff2e0cb4d4",
+      "name": "Brands",
+      "description": "",
+      "item": []
     }
   ]
 }
