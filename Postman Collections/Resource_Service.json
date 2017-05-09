@@ -347,29 +347,22 @@
       "item": [
         {
           "_postman_id": "9d607a84-7103-7fa1-0036-c8fc5de625a3",
-          "name": "Category copy",
+          "name": "Contributor",
           "request": {
             "url": {
-              "raw": "{{resource_service_url}}/catalog/hierarchies/:hierarchyid/categories/:categoryid",
+              "raw": "{{resource_service_url}}/contributors/:contributorid",
               "auth": {},
               "host": [
                 "{{resource_service_url}}"
               ],
               "path": [
-                "catalog",
-                "hierarchies",
-                ":hierarchyid",
-                "categories",
-                ":categoryid"
+                "contributors",
+                ":contributorid"
               ],
               "variable": [
                 {
-                  "value": "1",
-                  "id": "hierarchyid"
-                },
-                {
-                  "value": "20532",
-                  "id": "categoryid"
+                  "value": "",
+                  "id": "contributorid"
                 }
               ]
             },
@@ -377,7 +370,7 @@
             "header": [
               {
                 "key": "Accept",
-                "value": "application/vnd.bestbuy.category+json",
+                "value": "application/vnd.bestbuy.contributor+json",
                 "description": ""
               },
               {
