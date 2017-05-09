@@ -337,10 +337,17 @@
             "description": "Returns brand media information"
           },
           "response": []
-        },
+        }
+      ]
+    },
+    {
+      "_postman_id": "45c2f0ce-6872-9618-e14c-c94f3997c47b",
+      "name": "Contributor",
+      "description": "",
+      "item": [
         {
           "_postman_id": "9d607a84-7103-7fa1-0036-c8fc5de625a3",
-          "name": "Category copy",
+          "name": "Contributor",
           "request": {
             "url": {
               "raw": "{{resource_service_url}}/catalog/hierarchies/:hierarchyid/categories/:categoryid",
@@ -388,12 +395,6 @@
           "response": []
         }
       ]
-    },
-    {
-      "_postman_id": "45c2f0ce-6872-9618-e14c-c94f3997c47b",
-      "name": "Contributor",
-      "description": "",
-      "item": []
     }
   ]
 }
