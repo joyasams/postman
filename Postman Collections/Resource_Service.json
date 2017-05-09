@@ -337,6 +337,55 @@
             "description": "Returns brand media information"
           },
           "response": []
+        },
+        {
+          "_postman_id": "9d607a84-7103-7fa1-0036-c8fc5de625a3",
+          "name": "Category copy",
+          "request": {
+            "url": {
+              "raw": "{{resource_service_url}}/catalog/hierarchies/:hierarchyid/categories/:categoryid",
+              "auth": {},
+              "host": [
+                "{{resource_service_url}}"
+              ],
+              "path": [
+                "catalog",
+                "hierarchies",
+                ":hierarchyid",
+                "categories",
+                ":categoryid"
+              ],
+              "variable": [
+                {
+                  "value": "1",
+                  "id": "hierarchyid"
+                },
+                {
+                  "value": "20532",
+                  "id": "categoryid"
+                }
+              ]
+            },
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/vnd.bestbuy.category+json",
+                "description": ""
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "description": ""
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"requests\": [{\r\n        \"id\": \"catalog/products/10071133\"\r\n    },\r\n    {\r\n        \"id\": \"catalog/products/10071133/details\",\r\n        \"headers\": {\r\n            \"Accept\": \"application/vnd.bestbuy.productdetails+json\"\r\n        }\r\n    }]\r\n}"
+            },
+            "description": "Returns brand media information"
+          },
+          "response": []
         }
       ]
     }
