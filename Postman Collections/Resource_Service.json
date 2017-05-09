@@ -16,12 +16,12 @@
           "_postman_id": "c262bb11-72ab-6d09-ae37-d6344b242107",
           "name": "Aggregator",
           "request": {
-            "url": "{{resource_service_url}}/aggregator",
-            "method": "POST",
+            "url": "{{resource_service_url}}/catalog/brands/microsoft/media",
+            "method": "GET",
             "header": [
               {
                 "key": "Accept",
-                "value": "application/vnd.bestbuy.aggregator+json",
+                "value": "application/vnd.bestbuy.media+json",
                 "description": ""
               },
               {
