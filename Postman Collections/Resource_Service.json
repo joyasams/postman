@@ -131,7 +131,14 @@
             "description": "Returns brand media information"
           },
           "response": []
-        },
+        }
+      ]
+    },
+    {
+      "_postman_id": "709c3d4a-3ead-cd14-ca28-11701d88dd8b",
+      "name": "Category",
+      "description": "",
+      "item": [
         {
           "_postman_id": "87890a36-c789-91c0-fd76-3ce9229631e5",
           "name": "Brand copy",
@@ -176,12 +183,6 @@
           "response": []
         }
       ]
-    },
-    {
-      "_postman_id": "709c3d4a-3ead-cd14-ca28-11701d88dd8b",
-      "name": "Category",
-      "description": "",
-      "item": []
     }
   ]
 }
