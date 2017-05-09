@@ -98,6 +98,12 @@
           "response": []
         }
       ]
+    },
+    {
+      "_postman_id": "709c3d4a-3ead-cd14-ca28-11701d88dd8b",
+      "name": "Category",
+      "description": "",
+      "item": []
     }
   ]
 }
