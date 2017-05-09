@@ -290,7 +290,7 @@
         },
         {
           "_postman_id": "2eaccbcd-4547-cfdc-f032-1a65330f3c84",
-          "name": "Category Media copy",
+          "name": "Category Products",
           "request": {
             "url": {
               "raw": "{{resource_service_url}}/catalog/hierarchies/:hierarchyid/categories/:categoryid/details",
