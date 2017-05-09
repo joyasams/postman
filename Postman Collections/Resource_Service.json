@@ -347,7 +347,7 @@
       "item": [
         {
           "_postman_id": "9d607a84-7103-7fa1-0036-c8fc5de625a3",
-          "name": "Contributor",
+          "name": "Category copy",
           "request": {
             "url": {
               "raw": "{{resource_service_url}}/catalog/hierarchies/:hierarchyid/categories/:categoryid",
