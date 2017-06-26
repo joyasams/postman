@@ -61,6 +61,7 @@
                 ":brandid",
                 "media"
               ],
+              "query": [],
               "variable": [
                 {
                   "value": "microsoft",
@@ -104,6 +105,7 @@
                 "brands",
                 ":brandid"
               ],
+              "query": [],
               "variable": [
                 {
                   "value": "microsoft",
@@ -156,6 +158,7 @@
                 "categories",
                 ":categoryid"
               ],
+              "query": [],
               "variable": [
                 {
                   "value": "1",
@@ -206,6 +209,7 @@
                 ":categoryid",
                 "details"
               ],
+              "query": [],
               "variable": [
                 {
                   "value": "1",
@@ -256,6 +260,7 @@
                 ":categoryid",
                 "media"
               ],
+              "query": [],
               "variable": [
                 {
                   "value": "1",
@@ -306,6 +311,7 @@
                 ":categoryid",
                 "products"
               ],
+              "query": [],
               "variable": [
                 {
                   "value": "1",
@@ -359,10 +365,12 @@
                 "contributors",
                 ":contributorid"
               ],
+              "query": [],
               "variable": [
                 {
-                  "value": "",
-                  "id": "contributorid"
+                  "description": "",
+                  "key": "contributorid",
+                  "value": "1000"
                 }
               ]
             },
